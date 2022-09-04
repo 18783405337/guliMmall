@@ -20,6 +20,8 @@
         <module>renren-generator</module>
         <module>guliMall-common</module>
     </modules>
-
+    <properties>
+        <boot.version>2.7.3</boot.version>
+    </properties>
     
 </project>

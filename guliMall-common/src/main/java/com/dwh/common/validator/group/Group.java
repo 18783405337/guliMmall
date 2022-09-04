@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package io.renren.common.validator.group;
+package com.dwh.common.validator.group;
 
 
 import javax.validation.GroupSequence;
