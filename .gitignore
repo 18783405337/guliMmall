@@ -6,3 +6,4 @@
 **/.gitignore
 **/*.iml
 guliMall-Doc
+**/src/test

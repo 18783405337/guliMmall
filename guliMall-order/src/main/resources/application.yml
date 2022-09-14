@@ -7,6 +7,13 @@ spring:
     url: jdbc:mysql://localhost:3306/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: 123456789
+  application:
+    name: guliMall-order-10001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 1.14.93.254:8848
+        namespace: gulimall
 #mybstis plus
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
@@ -14,4 +21,4 @@ mybatis-plus:
     db-config:
       id-type: auto
 server:
-  port: 10000
+  port: 10001
