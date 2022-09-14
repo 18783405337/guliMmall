@@ -20,6 +20,12 @@
     <dependencies>
 
 
+<!--        配置管理的配置中心-->
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
         <!--        服务注册/发现-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

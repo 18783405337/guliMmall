@@ -6,4 +6,5 @@
 **/.gitignore
 **/*.iml
 guliMall-Doc
-**/src/test
+**/src/test/
+/guliMall-ware/src/test/
